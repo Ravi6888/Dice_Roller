@@ -63,7 +63,7 @@ fun DiceWithButtonAndImage(modifier: Modifier ) {
         5 -> R.drawable.dice_5
         else -> R.drawable.dice_6
     }
-    Column(modifier = Modifier.background(Color.White),
+    Column(modifier = Modifier,
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally)
     {
@@ -79,7 +79,7 @@ fun DiceWithButtonAndImage(modifier: Modifier ) {
     }
 }
 
-@Preview(showBackground = false)
+@Preview(showBackground = true)
 @Composable
 fun Dice_RollerApp_preview() {
     Dice_RollerTheme {
